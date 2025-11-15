@@ -1,0 +1,207 @@
+7 |2025-06-17 11:31:37.6483 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+7 |2025-06-17 11:31:38.8528 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+7 |2025-06-17 11:31:38.8528 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-17 11:31:38.9650 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-17 11:31:38.9718 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+7 |2025-06-17 11:31:38.9718 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+21 |2025-06-17 11:31:39.0005 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+21 |2025-06-17 11:31:39.0005 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+21 |2025-06-17 11:31:39.0005 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+21 |2025-06-17 11:31:39.0005 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+21 |2025-06-17 11:31:39.1052 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+21 |2025-06-17 11:31:39.1052 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+21 |2025-06-17 11:31:39.1052 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+20 |2025-06-17 11:31:43.9878 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+7 |2025-06-17 11:32:34.3826 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+7 |2025-06-17 11:32:34.4962 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+7 |2025-06-17 11:32:34.4962 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-17 11:32:34.6296 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-17 11:32:34.6296 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+7 |2025-06-17 11:32:34.6296 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+9 |2025-06-17 11:32:34.6472 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+9 |2025-06-17 11:32:34.6472 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+9 |2025-06-17 11:32:34.6472 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+9 |2025-06-17 11:32:34.6472 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+9 |2025-06-17 11:32:34.7564 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+9 |2025-06-17 11:32:34.7564 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+9 |2025-06-17 11:32:34.7564 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+9 |2025-06-17 11:32:38.2912 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+5 |2025-06-17 11:33:16.6062 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+5 |2025-06-17 11:33:16.7203 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+5 |2025-06-17 11:33:16.7203 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+5 |2025-06-17 11:33:16.8355 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+5 |2025-06-17 11:33:16.8355 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+5 |2025-06-17 11:33:16.8355 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+7 |2025-06-17 11:33:16.8355 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-17 11:33:16.8433 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+7 |2025-06-17 11:33:16.8433 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+7 |2025-06-17 11:33:16.8433 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+7 |2025-06-17 11:33:16.9566 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+7 |2025-06-17 11:33:16.9566 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+7 |2025-06-17 11:33:16.9566 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+21 |2025-06-17 11:33:27.2318 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+21 |2025-06-17 11:33:27.3266 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+24 |2025-06-17 11:33:29.7900 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+24 |2025-06-17 11:33:29.7900 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+24 |2025-06-17 11:33:29.7900 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+24 |2025-06-17 11:33:29.7975 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+24 |2025-06-17 11:33:29.8902 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+24 |2025-06-17 11:33:29.8911 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+24 |2025-06-17 11:33:29.8911 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+30 |2025-06-17 11:35:33.0212 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+30 |2025-06-17 11:35:33.0212 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+30 |2025-06-17 11:35:33.0212 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+30 |2025-06-17 11:35:33.0212 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+30 |2025-06-17 11:35:33.1027 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+30 |2025-06-17 11:35:33.1027 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+30 |2025-06-17 11:35:33.1027 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+30 |2025-06-17 11:35:36.4481 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+25 |2025-06-17 11:35:51.0295 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+25 |2025-06-17 11:35:51.1130 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+25 |2025-06-17 11:35:51.1130 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:2
+25 |2025-06-17 11:35:51.1940 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:2
+25 |2025-06-17 11:37:04.5505 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+25 |2025-06-17 11:37:04.6088 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+25 |2025-06-17 11:37:04.6088 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+25 |2025-06-17 11:37:04.6958 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+25 |2025-06-17 11:37:04.6958 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+25 |2025-06-17 11:37:04.6958 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+26 |2025-06-17 11:37:04.7038 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+26 |2025-06-17 11:37:04.7038 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+26 |2025-06-17 11:37:04.7038 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+26 |2025-06-17 11:37:04.7038 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+26 |2025-06-17 11:37:04.7924 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+26 |2025-06-17 11:37:04.7924 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+26 |2025-06-17 11:37:04.7924 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+26 |2025-06-17 11:37:33.7817 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+26 |2025-06-17 11:37:33.8816 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+25 |2025-06-17 11:38:53.5290 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Storing the image to the Filepath in Update
+25 |2025-06-17 11:38:53.5305 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Sent the image to the Filepath after update
+25 |2025-06-17 11:38:53.5305 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updating employee from service layer
+25 |2025-06-17 11:38:53.5305 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id: vagubb32@gmail.com
+25 |2025-06-17 11:38:53.6225 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id: vagubb32@gmail.com
+25 |2025-06-17 11:38:53.6225 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updated employee from service layer
+25 |2025-06-17 11:38:53.6252 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Calling Update method to insert Employee Details in DB
+25 |2025-06-17 11:38:53.7295 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Called Update method to insert Employee Details in DB
+26 |2025-06-17 11:38:53.7392 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+26 |2025-06-17 11:38:53.7392 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+26 |2025-06-17 11:38:53.7392 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+26 |2025-06-17 11:38:53.7392 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+26 |2025-06-17 11:38:53.7392 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+26 |2025-06-17 11:38:53.7392 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+26 |2025-06-17 11:38:53.7392 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+24 |2025-06-17 11:39:11.2222 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+24 |2025-06-17 11:39:11.3056 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+21 |2025-06-17 11:41:02.0211 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Storing the image to the Filepath in Update
+21 |2025-06-17 11:41:02.0211 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Sent the image to the Filepath after update
+21 |2025-06-17 11:41:02.0211 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updating employee from service layer
+21 |2025-06-17 11:41:02.0211 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id: Sudha5467@gmail.com
+21 |2025-06-17 11:41:02.1020 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id: Sudha5467@gmail.com
+21 |2025-06-17 11:41:02.1020 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updated employee from service layer
+21 |2025-06-17 11:41:02.1020 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Calling Update method to insert Employee Details in DB
+21 |2025-06-17 11:41:02.1961 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Called Update method to insert Employee Details in DB
+25 |2025-06-17 11:41:02.2044 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+25 |2025-06-17 11:41:02.2044 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+25 |2025-06-17 11:41:02.2044 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+25 |2025-06-17 11:41:02.2044 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+25 |2025-06-17 11:41:02.2044 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+25 |2025-06-17 11:41:02.2044 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+25 |2025-06-17 11:41:02.2044 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+22 |2025-06-17 11:41:14.7658 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+22 |2025-06-17 11:41:14.8402 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+21 |2025-06-17 11:42:00.1602 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Storing the image to the Filepath in Update
+21 |2025-06-17 11:42:00.1602 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Sent the image to the Filepath after update
+21 |2025-06-17 11:42:00.1602 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updating employee from service layer
+21 |2025-06-17 11:42:00.1602 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id: xyz@gmail.com
+21 |2025-06-17 11:42:00.2696 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id: xyz@gmail.com
+21 |2025-06-17 11:42:00.2696 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updated employee from service layer
+21 |2025-06-17 11:42:00.2696 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Calling Update method to insert Employee Details in DB
+21 |2025-06-17 11:42:00.3676 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Called Update method to insert Employee Details in DB
+21 |2025-06-17 11:42:00.3676 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+21 |2025-06-17 11:42:00.3742 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+21 |2025-06-17 11:42:00.3742 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+21 |2025-06-17 11:42:00.3742 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+21 |2025-06-17 11:42:00.3742 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+21 |2025-06-17 11:42:00.3742 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+21 |2025-06-17 11:42:00.3742 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+10 |2025-06-17 11:51:30.7089 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+10 |2025-06-17 11:51:50.0233 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+10 |2025-06-17 11:51:51.4050 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+10 |2025-06-17 11:51:51.4063 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+10 |2025-06-17 11:51:51.5122 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+10 |2025-06-17 11:51:51.5167 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+10 |2025-06-17 11:51:51.5167 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+5 |2025-06-17 11:51:51.5167 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+5 |2025-06-17 11:51:51.5167 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+5 |2025-06-17 11:51:51.5167 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+5 |2025-06-17 11:51:51.5167 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+5 |2025-06-17 11:51:51.6342 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+5 |2025-06-17 11:51:51.6342 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+5 |2025-06-17 11:51:51.6342 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+5 |2025-06-17 11:52:09.0064 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+5 |2025-06-17 11:52:09.1028 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+31 |2025-06-17 11:55:43.5709 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+31 |2025-06-17 11:55:43.6850 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+29 |2025-06-17 11:56:04.9037 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+32 |2025-06-17 11:56:29.3002 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+32 |2025-06-17 11:56:29.3865 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+32 |2025-06-17 11:56:29.3865 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+32 |2025-06-17 11:56:29.4781 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+32 |2025-06-17 11:56:29.4781 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+32 |2025-06-17 11:56:29.4781 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+27 |2025-06-17 11:56:29.4875 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+27 |2025-06-17 11:56:29.4875 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+27 |2025-06-17 11:56:29.4875 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+27 |2025-06-17 11:56:29.4875 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+27 |2025-06-17 11:56:29.5772 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+27 |2025-06-17 11:56:29.5784 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+27 |2025-06-17 11:56:29.5784 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+28 |2025-06-17 11:56:35.3717 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+28 |2025-06-17 11:57:36.5066 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+28 |2025-06-17 11:57:36.5707 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+28 |2025-06-17 11:57:36.5707 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+28 |2025-06-17 11:57:36.6670 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+28 |2025-06-17 11:57:36.6670 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+28 |2025-06-17 11:57:36.6670 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+24 |2025-06-17 11:57:36.6745 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+24 |2025-06-17 11:57:36.6745 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+24 |2025-06-17 11:57:36.6745 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+24 |2025-06-17 11:57:36.6745 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+24 |2025-06-17 11:57:36.7657 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+24 |2025-06-17 11:57:36.7657 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+24 |2025-06-17 11:57:36.7657 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+29 |2025-06-17 11:57:56.1168 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+30 |2025-06-17 11:58:30.6189 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+30 |2025-06-17 11:58:30.7153 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+30 |2025-06-17 11:58:30.7153 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+30 |2025-06-17 11:58:30.7950 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:xyz@gmail.com, Password:34567 and CompanyId:2
+30 |2025-06-17 11:58:30.7950 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+30 |2025-06-17 11:58:30.7967 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+24 |2025-06-17 11:58:30.7967 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+24 |2025-06-17 11:58:30.7967 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+24 |2025-06-17 11:58:30.7967 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+24 |2025-06-17 11:58:30.7967 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+24 |2025-06-17 11:58:30.8927 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+24 |2025-06-17 11:58:30.8927 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+24 |2025-06-17 11:58:30.8927 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+29 |2025-06-17 11:58:39.8334 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+29 |2025-06-17 11:58:39.9162 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+28 |2025-06-17 11:59:38.3473 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+28 |2025-06-17 11:59:38.4459 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+20 |2025-06-17 12:00:35.9318 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+20 |2025-06-17 12:00:36.0343 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+22 |2025-06-17 12:01:40.0807 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Storing the image to the Filepath in Update
+22 |2025-06-17 12:01:40.0807 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.UpdateModel.OnPost |Sent the image to the Filepath after update
+22 |2025-06-17 12:01:40.0807 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updating employee from service layer
+22 |2025-06-17 12:01:40.0807 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id: xyz@gmail.com
+22 |2025-06-17 12:01:40.1659 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id: xyz@gmail.com
+22 |2025-06-17 12:01:40.1659 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updated employee from service layer
+22 |2025-06-17 12:01:40.1659 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Calling Update method to insert Employee Details in DB
+22 |2025-06-17 12:01:40.2812 |DEBUG |Data Layer |DataLayer.EmployeeDB.Update |Called Update method to insert Employee Details in DB
+31 |2025-06-17 12:01:40.2812 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+31 |2025-06-17 12:01:40.2812 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+31 |2025-06-17 12:01:40.2812 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:2
+31 |2025-06-17 12:01:40.2812 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+31 |2025-06-17 12:01:40.2979 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 8
+31 |2025-06-17 12:01:40.2979 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:2
+31 |2025-06-17 12:01:40.2979 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed

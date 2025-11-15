@@ -1,0 +1,13 @@
+24 |2025-06-10 13:31:29.9922 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+24 |2025-06-10 13:31:29.9922 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+24 |2025-06-10 13:31:29.9922 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+24 |2025-06-10 13:31:29.9922 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+24 |2025-06-10 13:31:30.0919 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 5
+24 |2025-06-10 13:31:30.0919 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+24 |2025-06-10 13:31:30.0919 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+3 |2025-06-10 13:31:35.3743 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+3 |2025-06-10 13:31:35.4846 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+24 |2025-06-10 13:31:51.9950 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+24 |2025-06-10 13:31:52.1137 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+31 |2025-06-10 13:33:40.5899 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+31 |2025-06-10 13:33:40.6481 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer

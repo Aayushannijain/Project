@@ -1,0 +1,16 @@
+7 |2025-06-07 13:18:21.2982 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+7 |2025-06-07 13:18:21.3157 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+9 |2025-06-07 13:18:21.3313 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+9 |2025-06-07 13:18:21.3313 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+9 |2025-06-07 13:18:21.3313 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+9 |2025-06-07 13:18:21.4457 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+9 |2025-06-07 13:18:21.4457 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+9 |2025-06-07 13:18:21.4457 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+9 |2025-06-07 13:18:25.9213 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+9 |2025-06-07 13:18:25.9213 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+9 |2025-06-07 13:18:26.0264 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+9 |2025-06-07 13:18:26.0998 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method
+29 |2025-06-07 13:22:00.5362 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+29 |2025-06-07 13:22:00.5379 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+29 |2025-06-07 13:22:00.6458 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+29 |2025-06-07 13:22:00.6458 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method

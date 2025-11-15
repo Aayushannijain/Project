@@ -1,0 +1,115 @@
+14 |2025-06-12 14:00:46.1130 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+14 |2025-06-12 14:00:46.5656 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+14 |2025-06-12 14:00:46.5656 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+14 |2025-06-12 14:00:46.6758 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+14 |2025-06-12 14:00:46.6758 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+14 |2025-06-12 14:00:46.6758 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+3 |2025-06-12 14:00:46.6972 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+3 |2025-06-12 14:00:46.6972 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+3 |2025-06-12 14:00:46.6972 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+3 |2025-06-12 14:00:46.6972 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+3 |2025-06-12 14:00:46.8093 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+3 |2025-06-12 14:00:46.8093 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+3 |2025-06-12 14:00:46.8093 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+3 |2025-06-12 14:00:50.4482 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+3 |2025-06-12 14:00:50.4482 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+3 |2025-06-12 14:00:50.5555 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+3 |2025-06-12 14:00:50.5555 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+3 |2025-06-12 14:00:50.6378 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method
+14 |2025-06-12 14:00:54.9208 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Calling Education OnPostEdit method
+14 |2025-06-12 14:00:54.9208 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+14 |2025-06-12 14:00:55.0331 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+14 |2025-06-12 14:00:55.0331 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Called Education OnPostEdit method
+14 |2025-06-12 14:02:43.5365 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+14 |2025-06-12 14:02:43.6366 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+14 |2025-06-12 14:02:43.6366 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+14 |2025-06-12 14:02:43.7341 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+14 |2025-06-12 14:02:43.7356 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+14 |2025-06-12 14:02:43.7356 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+26 |2025-06-12 14:02:43.7356 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+26 |2025-06-12 14:02:43.7356 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+26 |2025-06-12 14:02:43.7356 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+26 |2025-06-12 14:02:43.7356 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+26 |2025-06-12 14:02:43.8375 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+26 |2025-06-12 14:02:43.8375 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+26 |2025-06-12 14:02:43.8375 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+27 |2025-06-12 14:03:18.4490 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+27 |2025-06-12 14:03:18.4490 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+27 |2025-06-12 14:03:18.5460 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+27 |2025-06-12 14:03:18.5460 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+27 |2025-06-12 14:03:18.5460 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method
+14 |2025-06-12 14:03:30.3443 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Calling Education OnPostEdit method
+14 |2025-06-12 14:03:30.3453 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+14 |2025-06-12 14:03:30.4367 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+14 |2025-06-12 14:03:30.4367 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Called Education OnPostEdit method
+14 |2025-06-12 14:03:32.4563 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Calling Education OnPostEdit method
+14 |2025-06-12 14:03:32.4563 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+14 |2025-06-12 14:03:32.5501 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+14 |2025-06-12 14:03:32.5501 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Called Education OnPostEdit method
+7 |2025-06-12 14:09:19.7276 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+7 |2025-06-12 14:09:20.1696 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+7 |2025-06-12 14:09:20.1696 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-12 14:09:20.2816 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-12 14:09:20.2884 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+7 |2025-06-12 14:09:20.2884 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+5 |2025-06-12 14:09:20.3034 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+5 |2025-06-12 14:09:20.3034 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+5 |2025-06-12 14:09:20.3034 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+5 |2025-06-12 14:09:20.3034 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+5 |2025-06-12 14:09:20.4095 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+5 |2025-06-12 14:09:20.4095 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+5 |2025-06-12 14:09:20.4095 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+17 |2025-06-12 14:09:23.6159 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+17 |2025-06-12 14:09:23.6159 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+17 |2025-06-12 14:09:23.7215 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+17 |2025-06-12 14:09:23.7215 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+17 |2025-06-12 14:09:23.8079 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method
+5 |2025-06-12 14:15:35.6866 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+5 |2025-06-12 14:15:36.1564 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+5 |2025-06-12 14:15:36.1581 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+5 |2025-06-12 14:15:36.2734 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+5 |2025-06-12 14:15:36.2734 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+5 |2025-06-12 14:15:36.2734 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+7 |2025-06-12 14:15:36.2938 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-12 14:15:36.2938 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+7 |2025-06-12 14:15:36.2938 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+7 |2025-06-12 14:15:36.2938 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+7 |2025-06-12 14:15:36.4084 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+7 |2025-06-12 14:15:36.4084 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+7 |2025-06-12 14:15:36.4084 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+7 |2025-06-12 14:15:40.6075 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+7 |2025-06-12 14:15:40.6075 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+7 |2025-06-12 14:15:40.7232 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+7 |2025-06-12 14:15:40.7232 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+7 |2025-06-12 14:15:40.8138 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method
+24 |2025-06-12 14:18:08.3929 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+24 |2025-06-12 14:18:08.3929 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+24 |2025-06-12 14:18:08.5189 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+24 |2025-06-12 14:18:08.5189 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+24 |2025-06-12 14:18:08.5189 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method
+3 |2025-06-12 14:18:20.4888 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Calling Education OnPostEdit method
+3 |2025-06-12 14:18:20.4888 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+3 |2025-06-12 14:18:20.5764 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+3 |2025-06-12 14:18:20.5764 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Called Education OnPostEdit method
+7 |2025-06-12 14:28:26.1716 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetching company record from service layer for particular domain
+7 |2025-06-12 14:28:26.6409 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetByCompanySubdomain |Fetched company record from service layer for particular domain
+7 |2025-06-12 14:28:26.6422 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-12 14:28:26.7487 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetByEmailPasswordCompanyId |Calling this method in DataLayer to fetch Employee data from DB for Email:friends6@gmail.com, Password:123456 and CompanyId:1
+7 |2025-06-12 14:28:26.7528 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+7 |2025-06-12 14:28:26.7528 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+5 |2025-06-12 14:28:26.7528 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+5 |2025-06-12 14:28:26.7673 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Getting CompanyId to fetch the employees for that particular ID
+5 |2025-06-12 14:28:26.7673 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetching all Employee records for CompanyId:1
+5 |2025-06-12 14:28:26.7673 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetching record from DB after filtering through CompanyId
+5 |2025-06-12 14:28:26.8779 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAllByCompanyId |Fetched records from DB count - 6
+5 |2025-06-12 14:28:26.8779 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAllByCompanyId |Fetched all Employee records for CompanyId:1
+5 |2025-06-12 14:28:26.8779 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+20 |2025-06-12 14:28:29.8411 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Calling OnGetEducationDetails method
+20 |2025-06-12 14:28:29.8411 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+20 |2025-06-12 14:28:29.9678 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+20 |2025-06-12 14:28:29.9678 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Deserializing Json string  Data to Object type
+20 |2025-06-12 14:28:30.0784 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGet |Completed OnGetEducationDetails method
+7 |2025-06-12 14:28:34.8407 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Calling Education OnPostEdit method
+7 |2025-06-12 14:28:34.8407 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetching education column data from DB
+7 |2025-06-12 14:28:34.9562 |DEBUG |Data Layer |DataLayer.EmployeeDB.EducationDetails |Fetched education column data from DB
+7 |2025-06-12 14:28:34.9562 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnGetEdit |Called Education OnPostEdit method

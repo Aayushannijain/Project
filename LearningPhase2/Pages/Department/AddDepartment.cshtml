@@ -1,0 +1,23 @@
+﻿@page
+@model LearningPhase2.Pages.Department.AddDepartmentModel
+<h1>Add Department</h1>
+<br />
+ <form method="post">
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+                
+                @Html.TextBoxFor(m => m.DepartmentName, new { placeholder = "DepartmentName", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.DepartmentName)
+            </div>
+        </div>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+
+            @Html.TextBoxFor(m => m.Description, new { placeholder = "Description", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Description)
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="SubmitForm();">Submit</button>
+</form>

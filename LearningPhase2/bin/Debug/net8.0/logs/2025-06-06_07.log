@@ -1,0 +1,115 @@
+5 |2025-06-06 12:30:45.8339 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+5 |2025-06-06 12:30:56.1246 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+5 |2025-06-06 12:30:56.1246 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+7 |2025-06-06 12:30:56.1386 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-06 12:30:56.1386 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+7 |2025-06-06 12:30:56.1386 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+7 |2025-06-06 12:30:56.2558 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+7 |2025-06-06 12:30:56.2558 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+7 |2025-06-06 12:30:56.2558 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+15 |2025-06-06 12:31:05.1040 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnPost |Calling AddEmployee OnPost method
+15 |2025-06-06 12:31:05.2271 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updating employee from service layer
+15 |2025-06-06 12:31:05.2271 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id
+15 |2025-06-06 12:31:05.3457 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id
+15 |2025-06-06 12:31:05.3457 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updated employee from service layer
+7 |2025-06-06 12:35:59.5055 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+19 |2025-06-06 12:36:09.2400 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+19 |2025-06-06 12:36:09.2400 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+19 |2025-06-06 12:36:09.2565 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+19 |2025-06-06 12:36:09.2565 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+19 |2025-06-06 12:36:09.2565 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+19 |2025-06-06 12:36:09.3776 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+19 |2025-06-06 12:36:09.3776 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+19 |2025-06-06 12:36:09.3776 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+7 |2025-06-06 12:37:08.2782 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnPost |Calling AddEmployee OnPost method
+7 |2025-06-06 12:37:40.4963 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Add |This method Adds employee details going through some checks
+7 |2025-06-06 12:37:41.1554 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetching record with matching name
+7 |2025-06-06 12:37:56.8809 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetched record with matching name
+10 |2025-06-06 12:38:56.8458 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+5 |2025-06-06 12:39:09.0716 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+5 |2025-06-06 12:39:09.0716 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+7 |2025-06-06 12:39:09.0879 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-06 12:39:09.0879 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+7 |2025-06-06 12:39:09.0879 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+7 |2025-06-06 12:39:09.2071 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+7 |2025-06-06 12:39:09.2071 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+7 |2025-06-06 12:39:09.2071 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+15 |2025-06-06 12:39:23.8077 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnPost |Calling AddEmployee OnPost method
+15 |2025-06-06 12:39:39.7189 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updating employee from service layer
+15 |2025-06-06 12:39:41.1730 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id
+15 |2025-06-06 12:40:07.0643 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id
+15 |2025-06-06 12:40:09.7976 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updated employee from service layer
+7 |2025-06-06 12:49:07.6917 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+5 |2025-06-06 12:49:21.1468 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+5 |2025-06-06 12:49:21.1468 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+18 |2025-06-06 12:49:21.1613 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+18 |2025-06-06 12:49:21.1613 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+18 |2025-06-06 12:49:21.1613 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+18 |2025-06-06 12:49:21.2772 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+18 |2025-06-06 12:49:21.2772 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+18 |2025-06-06 12:49:21.2772 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+5 |2025-06-06 12:49:31.4697 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnPost |Calling AddEmployee OnPost method
+5 |2025-06-06 12:49:31.5778 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updating employee from service layer
+5 |2025-06-06 12:49:31.5778 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id
+5 |2025-06-06 12:49:31.6906 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id
+5 |2025-06-06 12:49:31.6906 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.Update |updated employee from service layer
+5 |2025-06-06 12:49:31.8110 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.EducationModel.OnPost |Called AddEmployee OnPost method
+34 |2025-06-06 13:11:23.4084 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+34 |2025-06-06 13:11:23.4084 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+34 |2025-06-06 13:11:23.4084 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+34 |2025-06-06 13:11:23.4874 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+34 |2025-06-06 13:11:23.4874 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+34 |2025-06-06 13:11:23.4874 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+34 |2025-06-06 13:11:31.5988 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+36 |2025-06-06 13:11:51.4535 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+36 |2025-06-06 13:11:51.4535 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+40 |2025-06-06 13:11:51.4535 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+40 |2025-06-06 13:11:51.4535 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+40 |2025-06-06 13:11:51.4535 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+40 |2025-06-06 13:11:51.5540 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+40 |2025-06-06 13:11:51.5540 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+40 |2025-06-06 13:11:51.5540 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+46 |2025-06-06 13:15:42.9121 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+46 |2025-06-06 13:15:42.9138 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+46 |2025-06-06 13:15:42.9138 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+46 |2025-06-06 13:15:43.0080 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+46 |2025-06-06 13:15:43.0080 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+46 |2025-06-06 13:15:43.0080 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+48 |2025-06-06 13:15:52.4971 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling Departmentlist OnGet method
+48 |2025-06-06 13:15:52.4971 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+48 |2025-06-06 13:15:52.6091 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+48 |2025-06-06 13:15:52.6091 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |DepartmentList page OnGet method completed
+47 |2025-06-06 13:15:53.3885 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+16 |2025-06-06 13:16:24.8063 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+16 |2025-06-06 13:16:24.8240 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+9 |2025-06-06 13:16:24.8391 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+9 |2025-06-06 13:16:24.8391 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+9 |2025-06-06 13:16:24.8391 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+9 |2025-06-06 13:16:24.9631 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+9 |2025-06-06 13:16:24.9631 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+9 |2025-06-06 13:16:24.9631 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+5 |2025-06-06 13:16:49.4411 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling Departmentlist OnGet method
+5 |2025-06-06 13:16:49.4643 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetching department lists service layer
+5 |2025-06-06 13:16:49.8801 |DEBUG |Service Layer |SeviceLayer.DepartmentManager.GetAll |Fetched department lists service layer
+5 |2025-06-06 13:16:49.8801 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |DepartmentList page OnGet method completed
+9 |2025-06-06 13:16:50.4859 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+9 |2025-06-06 13:16:50.4859 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+9 |2025-06-06 13:16:50.4859 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+9 |2025-06-06 13:16:50.6134 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+9 |2025-06-06 13:16:50.6134 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+9 |2025-06-06 13:16:50.6134 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+21 |2025-06-06 13:18:09.1105 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+20 |2025-06-06 13:18:27.9833 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+20 |2025-06-06 13:18:27.9833 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+5 |2025-06-06 13:18:27.9833 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+5 |2025-06-06 13:18:27.9914 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+5 |2025-06-06 13:18:27.9914 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+5 |2025-06-06 13:18:28.1122 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+5 |2025-06-06 13:18:28.1122 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+5 |2025-06-06 13:18:28.1122 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+9 |2025-06-06 13:18:47.6591 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+9 |2025-06-06 13:18:47.6822 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+9 |2025-06-06 13:18:47.6952 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+9 |2025-06-06 13:18:48.0746 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+9 |2025-06-06 13:18:48.0746 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+9 |2025-06-06 13:18:48.0746 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed

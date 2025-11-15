@@ -1,0 +1,51 @@
+﻿@page
+@model LearningPhase2.Pages.Companies.AddCompanyDetailsModel
+@{
+}
+<div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="col-xl-9">
+        <h1>Add Company Details</h1>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-success" type="button" onclick="Submit()">Company Details</button>
+        </div>
+
+        @{
+            Html.RenderPartialAsync("_Message");
+        }
+        <br />
+        <form method="post" id="formData">
+            <div class="row mb-3">
+
+                <label for="OrganisationName" class="col-sm-2 col-form-label">Organisation Name</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.OrganisationName, new { placeholder = "Name", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.OrganisationName)
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="Website" class="col-sm-2 col-form-label">Website</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.Website, new { placeholder = "Website", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Website)
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="Subdomain" class="col-sm-2 col-form-label">Subdomain</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.Subdomain, new { placeholder = "Subdomain", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Subdomain)
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnSubmit">Add</button>
+        </form>
+    </div>
+</div>
+@section scripts{
+    <script src="~/js/jquery.blockui.js"></script>
+<script type="text/javascript">
+    function Submit(){
+        $.blockUI();
+         document.location.href = "/Companies/CompanyList";
+    }
+</script>
+}

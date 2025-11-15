@@ -1,0 +1,32 @@
+5 |2025-06-09 15:20:43.9899 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+5 |2025-06-09 15:20:44.0082 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+10 |2025-06-09 15:20:44.0225 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+10 |2025-06-09 15:20:44.0225 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+10 |2025-06-09 15:20:44.0225 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+10 |2025-06-09 15:20:44.1233 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+10 |2025-06-09 15:20:44.1233 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+10 |2025-06-09 15:20:44.1233 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+28 |2025-06-09 15:23:52.4536 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.AddCompanyDetailsModel.OnPost |Calling Companies OnPost method to storing Form values
+28 |2025-06-09 15:23:52.4536 |DEBUG |Service Layer |SeviceLayer.CompanyManager.AddCompany |Added department from service layer
+7 |2025-06-09 15:26:15.5899 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-09 15:26:15.6935 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+7 |2025-06-09 15:26:15.7069 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+7 |2025-06-09 15:26:16.1475 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+7 |2025-06-09 15:26:16.1475 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+7 |2025-06-09 15:26:16.1475 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+5 |2025-06-09 15:26:41.6881 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.AddCompanyDetailsModel.OnPost |Calling Companies OnPost method to storing Form values
+5 |2025-06-09 15:26:41.6881 |DEBUG |Service Layer |SeviceLayer.CompanyManager.AddCompany |Added department from service layer
+5 |2025-06-09 15:26:41.6957 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.AddCompanyDetailsModel.OnPost |Called Onpost method to Add the department
+5 |2025-06-09 15:28:36.0258 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+5 |2025-06-09 15:28:36.0497 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+5 |2025-06-09 15:28:36.0611 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+10 |2025-06-09 15:28:36.2950 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+10 |2025-06-09 15:28:36.2950 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+10 |2025-06-09 15:28:36.2950 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+5 |2025-06-09 15:28:36.6087 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+10 |2025-06-09 15:28:36.6087 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+5 |2025-06-09 15:28:36.6087 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+10 |2025-06-09 15:28:36.6087 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+5 |2025-06-09 15:28:36.6087 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+10 |2025-06-09 15:28:36.6087 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+7 |2025-06-09 15:29:21.5338 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.AddCompanyDetailsModel.OnPost |Calling Companies OnPost method to storing Form values

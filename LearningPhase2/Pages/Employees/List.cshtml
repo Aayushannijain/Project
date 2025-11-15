@@ -1,0 +1,33 @@
+﻿@page
+@model LearningPhase2.Pages.Employees.ListModel
+@{
+    <h1>Employee List</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.EmployeeList)
+            {
+                <tr>
+             
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.PhoneNumber</td>
+                    <td>
+                    <a href="/Employees/List?handler=ByName&name=@(item.Name)"> Get Record </a>
+                        <a href="/Employees/Update?id=@(item.Id)"> Edit </a>
+                        <a href="/Employees/List?handler=Delete&id=@(item.Id)"> Delete </a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}

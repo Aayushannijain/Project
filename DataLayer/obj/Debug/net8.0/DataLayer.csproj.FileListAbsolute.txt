@@ -1,0 +1,15 @@
+C:\Users\Developer\Documents\Aayush\DataLayer\bin\Debug\net8.0\DataLayer.deps.json
+C:\Users\Developer\Documents\Aayush\DataLayer\bin\Debug\net8.0\DataLayer.dll
+C:\Users\Developer\Documents\Aayush\DataLayer\bin\Debug\net8.0\DataLayer.pdb
+C:\Users\Developer\Documents\Aayush\DataLayer\bin\Debug\net8.0\Core.dll
+C:\Users\Developer\Documents\Aayush\DataLayer\bin\Debug\net8.0\Core.pdb
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfo.cs
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.csproj.Up2Date
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.dll
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\refint\DataLayer.dll
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\DataLayer.pdb
+C:\Users\Developer\Documents\Aayush\DataLayer\obj\Debug\net8.0\ref\DataLayer.dll

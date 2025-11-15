@@ -1,0 +1,9 @@
+7 |2025-06-06 17:27:49.1040 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LogoutModel.OnGet |Logout.cshtml.cs onGet method executing
+9 |2025-06-06 17:28:39.2980 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee name as session data
+9 |2025-06-06 17:28:39.2980 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Account.LoginModel.OnPost |Storing employee id as session data
+21 |2025-06-06 17:28:39.3189 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+21 |2025-06-06 17:28:39.3200 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+21 |2025-06-06 17:28:39.3200 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+21 |2025-06-06 17:28:39.4446 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+21 |2025-06-06 17:28:39.4446 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+21 |2025-06-06 17:28:39.4446 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed

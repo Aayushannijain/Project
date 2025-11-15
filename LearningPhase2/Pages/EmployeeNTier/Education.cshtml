@@ -1,0 +1,252 @@
+﻿@page
+@model LearningPhase2.Pages.EmployeeNTier.EducationModel
+@{
+}
+
+<div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="col-xl-9">
+        <h1>Add Education</h1>
+        
+        @{
+            Html.RenderPartialAsync("_Message");
+        }
+        <br />
+<form method="post" id="formData">
+            @Html.AntiForgeryToken()
+  <div class="row mb-3">
+      @Html.HiddenFor(x => x.EducationId)
+     @* <input type="hidden" id="EducationId" name="EducationId" /> *@
+
+    <label for="Degree" class="col-sm-2 col-form-label">Degree</label>
+    <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.Degree, new { placeholder = "Degree", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Degree)
+    </div>
+  </div>
+  <div class="row mb-3">
+                <label for="Specialization" class="col-sm-2 col-form-label">Specialization</label>
+    <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.Specialization, new { placeholder = "Specialization", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Specialization)
+    </div>
+  </div>
+            <div class="row mb-3">
+                <label for="College" class="col-sm-2 col-form-label">School/College</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.College, new { placeholder = "College", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.College)
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="University" class="col-sm-2 col-form-label">University</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.University, new { placeholder = "University", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.University)
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="Percentage" class="col-sm-2 col-form-label">Percentage</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.Percentage, new { placeholder = "Percentage", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Percentage)
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnSubmit" onclick="SubmitForm();">Submit</button>
+            <button type="button" class="btn btn-primary" id="btnUpdate" onclick="Update();" style="display:none" >Update</button>
+</form>
+</div>
+</div>
+
+<br />
+@* Showing Education DEatils table *@
+<div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="col-xl-9">
+
+<h1>Education List</h1>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.datatables.net/2.3.1/css/dataTables.bootstrap5.css" rel="stylesheet" type="text/css" />
+<table class="table table-striped " id="tblEmployees">
+    <thead>
+        <tr>
+            <th scope="col">Degree</th>
+            <th scope="col">Specialization</th>
+            <th scope="col">College/School</th>
+            <th scope="col">University</th>
+            <th scope="col">Percentage</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="educationbody">
+                @foreach (var item in Model.Educationlist)
+        {
+            <tr id="tr_@item.EducationId">
+
+                <td>
+                  @item.Degree
+                              
+                </td>
+                        <td>@item.Specialization</td>
+                        <td>@item.College</td>
+                        <td>@item.University</td>
+                        <td>@item.Percentage</td>
+                        <td>
+
+                            <a href="#."onclick="Edit(`@item.EducationId`)" title="Edit"> Edit </a>
+
+                            <a href="#." title="Delete" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="ShowDeleteConfirmation(`@item.EducationId`)"> Delete </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+</table>
+@* Delete pop up window *@
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Delete</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                You are going to delete an employee data. Are you sure you want to do it?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                <button type="button" class="btn btn-primary" onclick="Delete(delEducationId)">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section scripts{
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="~/js/jquery.blockui.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.bootstrap5.js"></script>
+    
+    <script type="text/javascript">
+            var delEducationId = 0;
+           function ShowDeleteConfirmation(EducationId){
+               delEducationId = EducationId;
+              $("#exampleModal").modal("show");
+           }
+           // function DeleteEmployee(){
+           //      $("#exampleModal").modal("hide");
+           //        $.blockUI();
+           //      document.location.href = "/EmployeeNTier/List?handler=Delete&id=" + delEmployeeId;
+           // }
+             new DataTable('#tblEmployees');
+
+             function Edit(id){
+                 let url = "/EmployeeNTier/Education?handler=Edit&Id=" + id;
+                 let options = {
+                     method:"Get",
+                 };
+                 fetch(url,options).then(function(response){
+              if (response.status === 401) {
+          window.location.href = "/Account/Login";
+          return Promise.reject(); // stop chain
+        }
+
+        const contentType = response.headers.get("content-type") || "";
+        if (!contentType.includes("application/json")) {
+          throw new Error("Not JSON");
+        }
+                     return response.json();
+                 }).then(function(data){
+                     document.getElementById("Degree").value = data.degree;
+                     document.getElementById("Specialization").value = data.specialization;
+                     document.getElementById("College").value = data.college;
+                     document.getElementById("University").value = data.university;
+                     document.getElementById("Percentage").value = data.percentage;
+                     document.getElementById("EducationId").value = data.educationId;
+                     $("#btnSubmit").hide();
+                     $("#btnUpdate").show();
+                 });
+        }
+
+        function Update(){
+            console.log("kya ye update ho rha hai");
+           if(!$("#formData").valid()){
+               return false;
+           }
+           // let token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
+            let formData = new FormData(document.querySelector("#formData"));
+
+            // formData.append("__RequestVerificationToken", token);
+
+                 let url = "/EmployeeNTier/Education?handler=Update";
+                 let options = {
+                     method:"Post",
+                     body:formData
+                 };
+                 fetch(url,options).then(function(response){
+        //             if (response.status === 401) {
+        //   window.location.href = "/Account/Login";
+        //   return Promise.reject(); stop chain
+        // }
+
+        // const contentType = response.headers.get("content-type") || "";
+        // if (!contentType.includes("application/json")) {
+        //   throw new Error("Not JSON");
+        // }
+                     return response.json();
+                 }).then(function(data){
+                     document.getElementById("Degree").value = "";
+                     document.getElementById("Specialization").value = "";
+                     document.getElementById("College").value = "";
+                     document.getElementById("University").value = "";
+                     document.getElementById("Percentage").value = "";
+                     document.getElementById("EducationId").value = "";
+                     let tbody = $("#educationbody");
+                     let empRow = `<tr><td>${data.degree}</td><td>${data.specialization}</td><td>${data.college}</td><td>${data.university}</td><td>${data.percentage}</td></tr>`
+                    tbody.append(empRow);
+                    location.reload();
+                    
+                 });
+        }
+                function Delete(EducationId) {
+            console.log("Calling delete function");
+            console.log(EducationId);
+             $("#exampleModal").modal("hide");
+            let url = "/EmployeeNTier/Education?handler=Delete&Id=" + EducationId;
+            let options = {
+                method: "GET"
+            };
+
+            fetch(url, options)
+                .then(function (response) {
+             if (response.status === 401) {
+          window.location.href = "/Account/Login";
+          return Promise.reject(); // stop chain
+        }
+
+        const contentType = response.headers.get("content-type") || "";
+        if (!contentType.includes("application/json")) {
+          throw new Error("Not JSON");
+        }
+                    return response.json();
+                })
+                .then(function (data) {
+                    var row = document.getElementById(`tr_${data.EducationId}`);
+                    if (row && row.parentNode) {
+                        row.parentNode.removeChild(row);
+                    }
+                    location.reload();
+                });
+        }
+       
+     </script>
+}

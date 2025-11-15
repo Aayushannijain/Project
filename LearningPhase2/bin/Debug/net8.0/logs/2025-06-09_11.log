@@ -1,0 +1,51 @@
+7 |2025-06-09 16:48:00.7729 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-09 16:48:00.8003 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+7 |2025-06-09 16:48:00.8174 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+7 |2025-06-09 16:48:01.2267 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+7 |2025-06-09 16:48:01.2267 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+7 |2025-06-09 16:48:01.2267 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+7 |2025-06-09 16:48:42.4142 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.AddCompanyDetailsModel.OnPost |Calling Companies OnPost method to storing Form values
+7 |2025-06-09 16:48:42.4142 |DEBUG |Service Layer |SeviceLayer.CompanyManager.AddCompany |Added department from service layer
+7 |2025-06-09 16:48:44.0372 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.AddCompanyDetailsModel.OnPost |Called Onpost method to Add the department
+21 |2025-06-09 16:48:44.0497 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+21 |2025-06-09 16:48:44.0497 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+21 |2025-06-09 16:48:44.0569 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+21 |2025-06-09 16:48:44.0569 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+30 |2025-06-09 16:57:06.0294 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+30 |2025-06-09 16:57:06.0294 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+30 |2025-06-09 16:57:06.1089 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+30 |2025-06-09 16:57:06.1089 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+29 |2025-06-09 16:57:10.1654 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+29 |2025-06-09 16:57:10.1654 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+29 |2025-06-09 16:57:10.2482 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+29 |2025-06-09 16:57:10.2482 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+41 |2025-06-09 17:05:46.7403 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+41 |2025-06-09 17:05:46.7411 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+41 |2025-06-09 17:05:46.7924 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+41 |2025-06-09 17:05:46.7924 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+41 |2025-06-09 17:05:54.0068 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+41 |2025-06-09 17:05:54.0076 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+41 |2025-06-09 17:05:54.0940 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+41 |2025-06-09 17:05:54.0940 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+40 |2025-06-09 17:05:54.2091 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+40 |2025-06-09 17:05:54.2091 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+40 |2025-06-09 17:05:54.3042 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+40 |2025-06-09 17:05:54.3042 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+45 |2025-06-09 17:05:54.3995 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+45 |2025-06-09 17:05:54.3995 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+45 |2025-06-09 17:05:54.4947 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+45 |2025-06-09 17:05:54.4947 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+9 |2025-06-09 17:06:23.8155 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+9 |2025-06-09 17:06:23.8591 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+9 |2025-06-09 17:06:23.8776 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+9 |2025-06-09 17:06:24.3649 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+9 |2025-06-09 17:06:24.3649 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+9 |2025-06-09 17:06:24.3666 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+20 |2025-06-09 17:06:54.5188 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+20 |2025-06-09 17:06:54.5188 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+20 |2025-06-09 17:06:54.6329 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+20 |2025-06-09 17:06:54.6329 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed
+9 |2025-06-09 17:07:07.7063 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |Calling Departmentlist OnGet method
+9 |2025-06-09 17:07:07.7063 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetching department lists service layer
+9 |2025-06-09 17:07:07.8146 |DEBUG |Service Layer |SeviceLayer.CompanyManager.GetAllCompanies |Fetched department lists service layer
+9 |2025-06-09 17:07:07.8146 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Companies.CompanyListModel.OnGet |DepartmentList page OnGet method completed

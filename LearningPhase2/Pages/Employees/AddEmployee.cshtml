@@ -1,0 +1,46 @@
+﻿@page
+@model LearningPhase2.Pages.Employee.AddEmployeeModel
+@{
+    <h2>Employee Details</h2>
+    <form method="post">
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+                 @*<input type="text" class="form-control" placeholder="Name" name="Name" asp-for="Name">
+                 <span asp-validation-for="Name"></span>*@
+                @Html.TextBoxFor(m => m.Name, new { placeholder = "Name", @class = "form-control"})
+                @Html.ValidationMessageFor(m => m.Name)
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                @*<input type="email" class="form-control" placeholder="Email" name="Email" asp-for="Email">
+                <span asp-validation-for="Email"></span>*@
+                @Html.TextBoxFor(m => m.Email, new { placeholder = "Email", @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Phone</label>
+            <div class="col-sm-10">
+                @*<input type="text" class="form-control" placeholder="Phone Number" name="PhoneNumber" asp-for="PhoneNumber">*@
+                @Html.TextBoxFor(m => m.PhoneNumber , new { placeholder = "Phone", @class = "form-control" })
+                
+
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Departments" class="col-sm-2 col-form-label">Select</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(x => x.Departments, new SelectList(@Model.Departments), "Select Department")
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    @section scripts {
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }
+}

@@ -1,0 +1,65 @@
+7 |2025-06-04 09:01:59.3896 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-04 09:01:59.5294 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+7 |2025-06-04 09:01:59.7123 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+7 |2025-06-04 09:02:00.9308 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 10
+7 |2025-06-04 09:02:00.9308 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+7 |2025-06-04 09:02:00.9308 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+23 |2025-06-04 09:03:54.2509 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Add employee OnPost method storing Form values
+23 |2025-06-04 09:03:54.2509 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Calling AddEmployee OnPost method
+23 |2025-06-04 09:03:54.2564 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetching record with matching name
+23 |2025-06-04 09:03:54.3716 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetched record with matching name
+23 |2025-06-04 09:03:54.3716 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id
+23 |2025-06-04 09:03:54.4777 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id
+23 |2025-06-04 09:03:54.6642 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Called AddEmployee OnPost method
+22 |2025-06-04 09:03:58.4286 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+22 |2025-06-04 09:03:58.4298 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+22 |2025-06-04 09:03:58.4298 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+22 |2025-06-04 09:03:58.4298 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 11
+22 |2025-06-04 09:03:58.4298 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+22 |2025-06-04 09:03:58.4298 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+9 |2025-06-04 09:14:46.5240 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+9 |2025-06-04 09:14:46.5474 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+9 |2025-06-04 09:14:46.5603 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+9 |2025-06-04 09:14:46.9491 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 11
+9 |2025-06-04 09:14:46.9491 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+9 |2025-06-04 09:14:46.9491 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+7 |2025-06-04 09:18:37.2664 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+7 |2025-06-04 09:18:37.2876 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+7 |2025-06-04 09:18:37.2990 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+7 |2025-06-04 09:18:37.7162 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 11
+7 |2025-06-04 09:18:37.7162 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+7 |2025-06-04 09:18:37.7162 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+7 |2025-06-04 09:21:35.3409 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling Departmentlist OnGet method
+7 |2025-06-04 09:21:35.7617 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |DepartmentList page OnGet method completed
+21 |2025-06-04 09:22:35.7347 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Add employee OnPost method storing Form values
+21 |2025-06-04 09:22:35.7434 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Calling AddEmployee OnPost method
+21 |2025-06-04 09:22:35.7434 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetching record with matching name
+21 |2025-06-04 09:22:35.8602 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetched record with matching name
+21 |2025-06-04 09:22:35.8602 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id
+21 |2025-06-04 09:22:35.9665 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id
+21 |2025-06-04 09:22:36.1401 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Called AddEmployee OnPost method
+23 |2025-06-04 09:22:39.1658 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+23 |2025-06-04 09:22:39.1658 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+23 |2025-06-04 09:22:39.1658 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+23 |2025-06-04 09:22:39.1658 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 12
+23 |2025-06-04 09:22:39.1658 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+23 |2025-06-04 09:22:39.1658 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+5 |2025-06-04 09:27:55.5418 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+5 |2025-06-04 09:27:55.5418 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+5 |2025-06-04 09:27:55.5418 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+5 |2025-06-04 09:27:55.6283 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 12
+5 |2025-06-04 09:27:55.6283 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+5 |2025-06-04 09:27:55.6283 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed
+20 |2025-06-04 09:29:22.3039 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Add employee OnPost method storing Form values
+20 |2025-06-04 09:29:22.3230 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Calling AddEmployee OnPost method
+20 |2025-06-04 09:29:22.3230 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetching record with matching name
+20 |2025-06-04 09:29:22.7363 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByName |Fetched record with matching name
+20 |2025-06-04 09:29:22.7363 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetching record with matching email id
+20 |2025-06-04 09:29:22.8471 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetByEmail |Fetched record with matching email id
+20 |2025-06-04 09:29:23.0226 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel.OnPost |Called AddEmployee OnPost method
+5 |2025-06-04 09:29:26.7181 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |Calling list OnGet method
+5 |2025-06-04 09:29:26.7181 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetching all records
+5 |2025-06-04 09:29:26.7181 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetching record from DB
+5 |2025-06-04 09:29:26.7292 |DEBUG |Data Layer |DataLayer.EmployeeDB.GetAll |Fetched records from DB count - 13
+5 |2025-06-04 09:29:26.7292 |DEBUG |Service Layer |SeviceLayer.EmployeeManager.GetAll |Fetched all records
+5 |2025-06-04 09:29:26.7292 |DEBUG |LearningPhase2 |LearningPhase2.Pages.EmployeeNTier.ListModel.OnGet |List page OnGet method completed

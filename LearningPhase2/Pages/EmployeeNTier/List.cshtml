@@ -1,0 +1,131 @@
+﻿@page
+@using LearningPhase2.AppCode
+@model LearningPhase2.Pages.EmployeeNTier.ListModel
+@{
+
+}
+<h1>N-Tier Employee List</h1>
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+    <button class="btn btn-success" type="button" onclick="AddEmployeeWindow()">Add Employee</button>
+    @{
+        int? loggedInId = ViewData["currentEmployeeId"] as int?;
+    }
+
+    @if (loggedInId.HasValue)
+    {
+        <button class="btn btn-success" type="button" onclick="EducationWindow()">Education Details</button>
+    }
+    
+</div>
+<br/>
+@{ Html.RenderPartialAsync("_Message"); }
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="https://cdn.datatables.net/2.3.1/css/dataTables.bootstrap5.css" rel="stylesheet" type="text/css" />
+<table class="table table-striped " id="tblEmployees">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Department</th>
+            <th scope="col">Department Description</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Created By</th>
+            <th scope="col">Updated By</th>
+            <th scope="col">Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.EmployeeList)
+        {
+            <tr>
+
+                <td>@item.Name
+                    @if (!string.IsNullOrEmpty(item.ProfilePic))
+                    {
+                        <br />
+                        <img src="/Employees/Images?fileName=@item.ProfilePic" hieght="50" width="50"/>
+                    }             
+                </td>
+                <td>@item.Email</td>
+                <td>@item.DepartmentName</td>
+                <td>@item.DepartmentDescription</td>
+                <td>@item.PhoneNumber</td>
+                <td>
+                    @item.CreatedBy
+                    <br>
+                    @Html.DisplayDate(@item.CreatedOnUTC)
+                    
+                </td>
+                <td>
+                    @item.UpdatedBy
+                    <br>
+                    @Html.DisplayDate(@item.UpdatedOnUTC)
+                </td>
+                <td>
+                    @Html.DisplayEmployeeStatus(@item.Status)
+                 
+                </td>
+                    <td>
+                        
+                        <a href="/EmployeeNTier/Update?id=@(item.Id)" title="Edit"> Edit </a>
+                   
+                    <a href="#." title="Delete" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="ShowDeleteConfirmation(@item.Id)"> Delete </a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Delete</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                You are going to delete an employee data. Are you sure you want to do it?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                <button type="button" class="btn btn-primary" onclick="DeleteEmployee()">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/js/jquery.blockui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.3.1/js/dataTables.bootstrap5.js"></script>
+
+    <script type="text/javascript">
+        var delEmployeeId = 0;
+       function ShowDeleteConfirmation(id){
+           delEmployeeId = id;
+          $("#exampleModal").modal("show");
+       }
+       function DeleteEmployee(){
+            $("#exampleModal").modal("hide");
+              // $.blockUI();
+            document.location.href = "/EmployeeNTier/List?handler=Delete&id=" + delEmployeeId;
+       }
+         new DataTable('#tblEmployees');
+
+
+         function EducationWindow(){
+             document.location.href = "/EmployeeNTier/Education";
+         }
+           function AddEmployeeWindow(){
+              document.location.href = "/EmployeeNTier/AddEmployee";
+          }
+    </script>
+}

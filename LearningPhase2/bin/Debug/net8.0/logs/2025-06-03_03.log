@@ -1,0 +1,9 @@
+7 |2025-06-03 08:49:48.2307 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling list OnGet method
+7 |2025-06-03 08:49:49.5215 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |List page OnGet method completed
+5 |2025-06-03 09:04:04.9207 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling list OnGet method
+5 |2025-06-03 09:04:05.3673 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |List page OnGet method completed
+5 |2025-06-03 09:04:16.6983 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling list OnGet method
+5 |2025-06-03 09:11:11.0383 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling list OnGet method
+9 |2025-06-03 09:16:21.1547 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling list OnGet method
+5 |2025-06-03 09:19:37.6771 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |Calling list OnGet method
+5 |2025-06-03 09:19:38.0698 |DEBUG |LearningPhase2 |LearningPhase2.Pages.Department.DepartmentListModel.OnGet |List page OnGet method completed

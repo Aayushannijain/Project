@@ -1,0 +1,61 @@
+﻿@page
+@model LearningPhase2.Pages.Account.LoginModel
+@{
+    Layout = "_Layout2";
+}
+
+<form method="post">
+    @{
+        Html.RenderPartialAsync("_Message");
+    }
+    <h1 class="h1 mb-3 fw-normal">Login</h1> 
+    <div class="mb-3"> 
+        <label for="floatingInput">Email address</label>
+        @* <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">  *@
+        @Html.TextBoxFor(m => m.Email, new { placeholder = "Please enter email", @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Email)
+        @* <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> *@
+        
+    </div> 
+        <div class="mb-3">
+        <label for="floatingPassword">Password</label>
+            @* <input type="password" class="form-control" id="floatingPassword" placeholder="Password"> *@
+
+        @Html.PasswordFor(m => m.Password, new { placeholder = "Password", @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Password)
+             
+        </div>
+
+    @* <div class="mb-3"> *@
+    @*     <label for="floatingInput">Subdomain</label> *@
+       
+    @*     @Html.TextBoxFor(m => m.Subdomain, new { placeholder = "Please enter Subdomain", @class = "form-control" }) *@
+    @*     @Html.ValidationMessageFor(m => m.Subdomain) *@
+        
+    @* </div> *@
+
+    @*  <div class="form-check text-start my-3"> *@
+    @*     <input class="form-check-input" type="checkbox" value="remember-me" id="checkDefault"> *@
+    @*     <label class="form-check-label" for="checkDefault"> *@
+    @*         Remember me *@
+    @*     </label> *@
+    @* </div> *@
+
+    <button class="btn btn-primary" type="submit">Log in</button>
+   
+</form>
+
+        @section scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/jquery.blockui.js"></script>
+    <script type="text/javascript">
+               $(document).ready(function () {
+            $('form').on('submit', function (e) {
+                if ($(this).valid()) { // Only block UI if form is valid
+                    $.blockUI();
+                }
+            });
+        });
+    </script>
+        }

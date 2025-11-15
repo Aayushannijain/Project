@@ -1,0 +1,106 @@
+﻿@page
+@model LearningPhase2.Pages.EmployeeNTier.AddEmployeeModel
+@{}
+
+    
+    <div class="d-grid  d-md-flex justify-content-between align-items-center">
+        <h1>Employee Details</h1>
+        <button class="btn btn-success" type="button" onclick="EmployeeListWindow()">All Employees</button>
+
+    </div>
+
+   
+<br />
+
+@{ await Html.RenderPartialAsync("_Message"); }
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <form method="post" id="addForm" enctype="multipart/form-data">
+        <div class="row mb-3">
+            <label for="Name" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+                
+                @Html.TextBoxFor(m => m.Name, new { placeholder = "Name", @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Name)
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+               
+                @Html.TextBoxFor(m => m.Email, new { placeholder = "Email", @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Email)
+            </div>
+        </div>
+    <div class="row mb-3">
+        <label for="Password" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+
+            @Html.PasswordFor(m => m.Password, new { placeholder = "Password", @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Password)
+        </div>
+    </div>
+        <div class="row mb-3">
+            <label for="Phone Number" class="col-sm-2 col-form-label">Phone</label>
+            <div class="col-sm-10">
+               
+                @Html.TextBoxFor(m => m.PhoneNumber, new { placeholder = "Phone", @class = "form-control" })
+            </div>
+        </div>
+    <div class="row mb-3">  
+         <label for="department" class="col-sm-2 col-form-label">Departments</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(x => x.DepartmentId, new SelectList(Model.Departments, "Id", "DepartmentName"), "Select Department", new { @class = "form-control" }) 
+           @Html.ValidationMessageFor(m => m.DepartmentId)
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="Status" class="col-sm-2 col-form-label">Status</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(x => x.Status, new SelectList(Model.StatusList), "Select Status", new {@class = "form-control"})
+            @Html.ValidationMessageFor(m => m.Status)
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="DOB" class="col-sm-2 col-form-label">DOB</label>
+        <div class="col-sm-10">
+
+            @Html.TextBoxFor(m => m.DOB, new { placeholder = "DOB", @class = "form-control", id="tbDOB" })
+            @Html.ValidationMessageFor(m => m.DOB)
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="ProfilePic" class="col-sm-2 col-form-label">Profile pic</label>
+        <div class="col-sm-10">
+            <input type="file" asp-for="ProfilePic" name="ProfilePic" id="ProfilePic"  />
+        </div>
+    </div>
+        <button type="submit" class="btn btn-primary" onclick="SubmitForm();">Submit</button>
+    </form>
+    @section scripts {
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+        <script src="~/js/jquery.blockui.js"></script>
+        <script type="text/javascript">
+               $(document).ready(function () {
+            $('form').on('submit', function (e) {
+                if ($(this).valid()) { // Only block UI if form is valid
+                    $.blockUI();
+                }
+            });
+        });
+
+         $('#tbDOB').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+
+        function EmployeeListWindow(){
+             document.location.href = "/EmployeeNTier/List";
+        }
+         </script>
+    }
+

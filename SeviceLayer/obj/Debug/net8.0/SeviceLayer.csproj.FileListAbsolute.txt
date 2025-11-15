@@ -1,0 +1,17 @@
+C:\Users\Developer\Documents\Aayush\SeviceLayer\bin\Debug\net8.0\SeviceLayer.deps.json
+C:\Users\Developer\Documents\Aayush\SeviceLayer\bin\Debug\net8.0\SeviceLayer.dll
+C:\Users\Developer\Documents\Aayush\SeviceLayer\bin\Debug\net8.0\SeviceLayer.pdb
+C:\Users\Developer\Documents\Aayush\SeviceLayer\bin\Debug\net8.0\Core.dll
+C:\Users\Developer\Documents\Aayush\SeviceLayer\bin\Debug\net8.0\DataLayer.dll
+C:\Users\Developer\Documents\Aayush\SeviceLayer\bin\Debug\net8.0\Core.pdb
+C:\Users\Developer\Documents\Aayush\SeviceLayer\bin\Debug\net8.0\DataLayer.pdb
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLayer.csproj.AssemblyReference.cache
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLayer.AssemblyInfoInputs.cache
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLayer.AssemblyInfo.cs
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLayer.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLa.AAE3FF1C.Up2Date
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLayer.dll
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\refint\SeviceLayer.dll
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\SeviceLayer.pdb
+C:\Users\Developer\Documents\Aayush\SeviceLayer\obj\Debug\net8.0\ref\SeviceLayer.dll

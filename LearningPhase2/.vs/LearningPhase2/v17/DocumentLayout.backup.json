@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72680D9E-92E6-418C-9F51-C21BEE76A1E0}|..\\DataLayer\\DataLayer.csproj|c:\\users\\developer\\documents\\aayush\\datalayer\\connectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72680D9E-92E6-418C-9F51-C21BEE76A1E0}|..\\DataLayer\\DataLayer.csproj|c:\\users\\developer\\documents\\aayush\\datalayer\\companydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\appcode\\commonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:appcode\\commonfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\employeentier\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\employeentier\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\employeentier\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\employeentier\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\companies\\updatecompanydetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\companies\\updatecompanydetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\employeentier\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\employeentier\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|c:\\users\\developer\\documents\\aayush\\learningphase2\\pages\\employees\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C9E53A-2833-4D74-B55D-A6E162901EEE}|LearningPhase2.csproj|solutionrelative:pages\\employees\\list.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\DataLayer\\ConnectionFactory.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\ConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\DataLayer\\ConnectionFactory.cs",
+              "RelativeToolTip": "..\\DataLayer\\ConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:09:46.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompanyDB.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\DataLayer\\CompanyDB.cs",
+              "RelativeDocumentMoniker": "..\\DataLayer\\CompanyDB.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\DataLayer\\CompanyDB.cs",
+              "RelativeToolTip": "..\\DataLayer\\CompanyDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:09:46.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:46:38.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\AppCode\\CommonFunction.cs",
+              "RelativeDocumentMoniker": "AppCode\\CommonFunction.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\AppCode\\CommonFunction.cs",
+              "RelativeToolTip": "AppCode\\CommonFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T06:16:49.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:41:20.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "List.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\EmployeeNTier\\List.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\EmployeeNTier\\List.cshtml.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\EmployeeNTier\\List.cshtml.cs",
+              "RelativeToolTip": "Pages\\EmployeeNTier\\List.cshtml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T11:12:48.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\EmployeeNTier\\AddEmployee.cshtml",
+              "RelativeDocumentMoniker": "Pages\\EmployeeNTier\\AddEmployee.cshtml",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\EmployeeNTier\\AddEmployee.cshtml",
+              "RelativeToolTip": "Pages\\EmployeeNTier\\AddEmployee.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T07:28:28.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateCompanyDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Companies\\UpdateCompanyDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Companies\\UpdateCompanyDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Companies\\UpdateCompanyDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\Companies\\UpdateCompanyDetails.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:13:57.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\EmployeeNTier\\Update.cshtml",
+              "RelativeDocumentMoniker": "Pages\\EmployeeNTier\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\EmployeeNTier\\Update.cshtml",
+              "RelativeToolTip": "Pages\\EmployeeNTier\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T09:17:47.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T12:27:34.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "Pages\\Privacy.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:49:42.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "List.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Employees\\List.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Employees\\List.cshtml.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\Aayush\\LearningPhase2\\Pages\\Employees\\List.cshtml.cs",
+              "RelativeToolTip": "Pages\\Employees\\List.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:50:45.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
